@@ -19,7 +19,7 @@ jobs:
     steps:  # 步骤，有几个横杠 就是几个 steps
       - uses: actions/checkout@v2  # git pull 直接使用 uses 第三方
       - name: Use Node.js # steps 的名称
-        uses: actions/setp-node@v1 # 第三方的 actions， 安装 node.js 
+        uses: actions/setup-node@v1 # 第三方的 actions， 安装 node.js 
         with:
           node-version: 14
       - name: print node version
