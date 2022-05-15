@@ -1,0 +1,15 @@
+{
+    "name": "test-flowy",
+    "version": "1.0.1",
+    "devDependencies": {
+    },
+    "dependencies": {
+    },
+    "scripts": {
+      "build": "",
+      "dev": "",
+      "test1": "node ./src/index.js",
+      "test2": "node ./src/index2.js",
+      "docs:dev": "vuepress dev docs"
+    }
+  }
