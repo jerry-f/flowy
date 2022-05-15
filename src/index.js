@@ -1,4 +1,4 @@
-const fs = requuire('fs')
+const fs = require('fs')
 const path = require('path')
 
 const fileName = path.join(__dirname, 'message.txt')
